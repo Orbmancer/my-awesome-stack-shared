@@ -1,0 +1,26 @@
+{
+  "name": "my-awesome-stack-shared",
+  "version": "1.0.0",
+  "description": "Shared services",
+  "main": "Config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Orbmancer/my-awesome-stack-shared.git"
+  },
+  "keywords": [
+    "shared",
+    "stack"
+  ],
+  "author": "Orbmancer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orbmancer/my-awesome-stack-shared/issues"
+  },
+  "homepage": "https://github.com/Orbmancer/my-awesome-stack-shared",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
