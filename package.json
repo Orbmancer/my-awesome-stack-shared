@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Orbmancer/my-awesome-stack-shared",
   "dependencies": {
+    "bluebird": "^3.3.3",
     "request": "^2.69.0"
   }
 }
