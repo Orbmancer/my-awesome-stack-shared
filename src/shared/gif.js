@@ -8,9 +8,9 @@ var api_key  = 'dc6zaTOxFJmzC';
 
 module.exports = {
 
-    getRandomGIF: function(){
+    getRandomGIF: function(tag){
         return new Promise(function(resolve, reject){
-            request(endpoint+'/random?api_key='+api_key+'&tag=reaction', function(error, response, body){
+            request(endpoint+'/random?api_key='+api_key+'&tag='+tag, function(error, response, body){
                 if(error){
                     reject(error);
                 }
